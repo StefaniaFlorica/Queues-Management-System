@@ -1,0 +1,646 @@
+Number of clients: 50
+Number of queues: 5
+Simulation time: 60
+Arrival Time: [2; 40]
+Service Time: [1; 7]
+client (id:1, arr:33, serv:7 )was generated
+client (id:2, arr:27, serv:2 )was generated
+client (id:3, arr:35, serv:5 )was generated
+client (id:4, arr:30, serv:6 )was generated
+client (id:5, arr:39, serv:5 )was generated
+client (id:6, arr:21, serv:3 )was generated
+client (id:7, arr:33, serv:6 )was generated
+client (id:8, arr:29, serv:4 )was generated
+client (id:9, arr:38, serv:3 )was generated
+client (id:10, arr:20, serv:6 )was generated
+client (id:11, arr:15, serv:6 )was generated
+client (id:12, arr:3, serv:5 )was generated
+client (id:13, arr:20, serv:3 )was generated
+client (id:14, arr:40, serv:3 )was generated
+client (id:15, arr:22, serv:6 )was generated
+client (id:16, arr:5, serv:6 )was generated
+client (id:17, arr:3, serv:3 )was generated
+client (id:18, arr:35, serv:2 )was generated
+client (id:19, arr:11, serv:2 )was generated
+client (id:20, arr:34, serv:5 )was generated
+client (id:21, arr:28, serv:1 )was generated
+client (id:22, arr:35, serv:6 )was generated
+client (id:23, arr:14, serv:3 )was generated
+client (id:24, arr:24, serv:4 )was generated
+client (id:25, arr:12, serv:1 )was generated
+client (id:26, arr:29, serv:4 )was generated
+client (id:27, arr:13, serv:3 )was generated
+client (id:28, arr:14, serv:2 )was generated
+client (id:29, arr:34, serv:1 )was generated
+client (id:30, arr:29, serv:5 )was generated
+client (id:31, arr:34, serv:2 )was generated
+client (id:32, arr:31, serv:6 )was generated
+client (id:33, arr:37, serv:1 )was generated
+client (id:34, arr:21, serv:7 )was generated
+client (id:35, arr:22, serv:7 )was generated
+client (id:36, arr:39, serv:5 )was generated
+client (id:37, arr:7, serv:1 )was generated
+client (id:38, arr:34, serv:2 )was generated
+client (id:39, arr:36, serv:5 )was generated
+client (id:40, arr:24, serv:1 )was generated
+client (id:41, arr:21, serv:5 )was generated
+client (id:42, arr:17, serv:1 )was generated
+client (id:43, arr:25, serv:6 )was generated
+client (id:44, arr:21, serv:5 )was generated
+client (id:45, arr:7, serv:1 )was generated
+client (id:46, arr:34, serv:1 )was generated
+client (id:47, arr:26, serv:7 )was generated
+client (id:48, arr:29, serv:1 )was generated
+client (id:49, arr:23, serv:1 )was generated
+client (id:50, arr:26, serv:6 )was generated
+Clients to be assigned to queues:
+(id:1, arr:33, serv:7 )
+(id:2, arr:27, serv:2 )
+(id:3, arr:35, serv:5 )
+(id:4, arr:30, serv:6 )
+(id:5, arr:39, serv:5 )
+(id:6, arr:21, serv:3 )
+(id:7, arr:33, serv:6 )
+(id:8, arr:29, serv:4 )
+(id:9, arr:38, serv:3 )
+(id:10, arr:20, serv:6 )
+(id:11, arr:15, serv:6 )
+(id:12, arr:3, serv:5 )
+(id:13, arr:20, serv:3 )
+(id:14, arr:40, serv:3 )
+(id:15, arr:22, serv:6 )
+(id:16, arr:5, serv:6 )
+(id:17, arr:3, serv:3 )
+(id:18, arr:35, serv:2 )
+(id:19, arr:11, serv:2 )
+(id:20, arr:34, serv:5 )
+(id:21, arr:28, serv:1 )
+(id:22, arr:35, serv:6 )
+(id:23, arr:14, serv:3 )
+(id:24, arr:24, serv:4 )
+(id:25, arr:12, serv:1 )
+(id:26, arr:29, serv:4 )
+(id:27, arr:13, serv:3 )
+(id:28, arr:14, serv:2 )
+(id:29, arr:34, serv:1 )
+(id:30, arr:29, serv:5 )
+(id:31, arr:34, serv:2 )
+(id:32, arr:31, serv:6 )
+(id:33, arr:37, serv:1 )
+(id:34, arr:21, serv:7 )
+(id:35, arr:22, serv:7 )
+(id:36, arr:39, serv:5 )
+(id:37, arr:7, serv:1 )
+(id:38, arr:34, serv:2 )
+(id:39, arr:36, serv:5 )
+(id:40, arr:24, serv:1 )
+(id:41, arr:21, serv:5 )
+(id:42, arr:17, serv:1 )
+(id:43, arr:25, serv:6 )
+(id:44, arr:21, serv:5 )
+(id:45, arr:7, serv:1 )
+(id:46, arr:34, serv:1 )
+(id:47, arr:26, serv:7 )
+(id:48, arr:29, serv:1 )
+(id:49, arr:23, serv:1 )
+(id:50, arr:26, serv:6 )
+
+		TIME:0/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:1/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:2/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:3/60
+-->(id:12, arr:3, serv:5 ) will enter Q1 with WT=0
+------there are 49 more clients to go------
+-->(id:17, arr:3, serv:3 ) will enter Q2 with WT=0
+------there are 48 more clients to go------
+Q1 (WT=5): (id:12, arr:3, serv:5 ) |  
+Q2 (WT=3): (id:17, arr:3, serv:3 ) |  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:4/60
+Q1 (WT=4): (id:12, arr:3, serv:4 ) |  
+Q2 (WT=2): (id:17, arr:3, serv:2 ) |  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:5/60
+-->(id:16, arr:5, serv:6 ) will enter Q3 with WT=0
+------there are 47 more clients to go------
+Q1 (WT=3): (id:12, arr:3, serv:3 ) |  
+Q2 (WT=1): (id:17, arr:3, serv:1 ) |  
+Q3 (WT=6): (id:16, arr:5, serv:6 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+Client # 17left the queue
+		TIME:6/60
+Q1 (WT=2): (id:12, arr:3, serv:2 ) |  
+Q2 (WT=0):  
+Q3 (WT=5): (id:16, arr:5, serv:5 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:7/60
+-->(id:37, arr:7, serv:1 ) will enter Q2 with WT=0
+------there are 46 more clients to go------
+-->(id:45, arr:7, serv:1 ) will enter Q4 with WT=0
+------there are 45 more clients to go------
+Q1 (WT=1): (id:12, arr:3, serv:1 ) |  
+Q2 (WT=1): (id:37, arr:7, serv:1 ) |  
+Q3 (WT=4): (id:16, arr:5, serv:4 ) |  
+Q4 (WT=1): (id:45, arr:7, serv:1 ) |  
+Q5 (WT=0):  
+
+Client # 37left the queue
+Client # 12left the queue
+Client # 45left the queue
+		TIME:8/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=3): (id:16, arr:5, serv:3 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:9/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=2): (id:16, arr:5, serv:2 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:10/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=1): (id:16, arr:5, serv:1 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+Client # 16left the queue
+		TIME:11/60
+-->(id:19, arr:11, serv:2 ) will enter Q1 with WT=0
+------there are 44 more clients to go------
+Q1 (WT=2): (id:19, arr:11, serv:2 ) |  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:12/60
+-->(id:25, arr:12, serv:1 ) will enter Q2 with WT=0
+------there are 43 more clients to go------
+Q1 (WT=1): (id:19, arr:11, serv:1 ) |  
+Q2 (WT=1): (id:25, arr:12, serv:1 ) |  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+Client # 25left the queue
+Client # 19left the queue
+		TIME:13/60
+-->(id:27, arr:13, serv:3 ) will enter Q1 with WT=0
+------there are 42 more clients to go------
+Q1 (WT=3): (id:27, arr:13, serv:3 ) |  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:14/60
+-->(id:23, arr:14, serv:3 ) will enter Q2 with WT=0
+------there are 41 more clients to go------
+-->(id:28, arr:14, serv:2 ) will enter Q3 with WT=0
+------there are 40 more clients to go------
+Q1 (WT=2): (id:27, arr:13, serv:2 ) |  
+Q2 (WT=3): (id:23, arr:14, serv:3 ) |  
+Q3 (WT=2): (id:28, arr:14, serv:2 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:15/60
+-->(id:11, arr:15, serv:6 ) will enter Q4 with WT=0
+------there are 39 more clients to go------
+Q1 (WT=1): (id:27, arr:13, serv:1 ) |  
+Q2 (WT=2): (id:23, arr:14, serv:2 ) |  
+Q3 (WT=1): (id:28, arr:14, serv:1 ) |  
+Q4 (WT=6): (id:11, arr:15, serv:6 ) |  
+Q5 (WT=0):  
+
+Client # 27left the queue
+Client # 28left the queue
+		TIME:16/60
+Q1 (WT=0):  
+Q2 (WT=1): (id:23, arr:14, serv:1 ) |  
+Q3 (WT=0):  
+Q4 (WT=5): (id:11, arr:15, serv:5 ) |  
+Q5 (WT=0):  
+
+Client # 23left the queue
+		TIME:17/60
+-->(id:42, arr:17, serv:1 ) will enter Q1 with WT=0
+------there are 38 more clients to go------
+Q1 (WT=1): (id:42, arr:17, serv:1 ) |  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=4): (id:11, arr:15, serv:4 ) |  
+Q5 (WT=0):  
+
+Client # 42left the queue
+		TIME:18/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=3): (id:11, arr:15, serv:3 ) |  
+Q5 (WT=0):  
+
+		TIME:19/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=2): (id:11, arr:15, serv:2 ) |  
+Q5 (WT=0):  
+
+		TIME:20/60
+-->(id:10, arr:20, serv:6 ) will enter Q1 with WT=0
+------there are 37 more clients to go------
+-->(id:13, arr:20, serv:3 ) will enter Q2 with WT=0
+------there are 36 more clients to go------
+Q1 (WT=6): (id:10, arr:20, serv:6 ) |  
+Q2 (WT=3): (id:13, arr:20, serv:3 ) |  
+Q3 (WT=0):  
+Q4 (WT=1): (id:11, arr:15, serv:1 ) |  
+Q5 (WT=0):  
+
+Client # 11left the queue
+		TIME:21/60
+-->(id:6, arr:21, serv:3 ) will enter Q3 with WT=0
+------there are 35 more clients to go------
+-->(id:34, arr:21, serv:7 ) will enter Q4 with WT=0
+------there are 34 more clients to go------
+-->(id:41, arr:21, serv:5 ) will enter Q5 with WT=0
+------there are 33 more clients to go------
+-->(id:44, arr:21, serv:5 ) will enter Q2 with WT=2
+------there are 32 more clients to go------
+Q1 (WT=5): (id:10, arr:20, serv:5 ) |  
+Q2 (WT=7): (id:13, arr:20, serv:2 ) | (id:44, arr:21, serv:5 ) |  
+Q3 (WT=3): (id:6, arr:21, serv:3 ) |  
+Q4 (WT=7): (id:34, arr:21, serv:7 ) |  
+Q5 (WT=5): (id:41, arr:21, serv:5 ) |  
+
+		TIME:22/60
+-->(id:15, arr:22, serv:6 ) will enter Q3 with WT=2
+------there are 31 more clients to go------
+-->(id:35, arr:22, serv:7 ) will enter Q1 with WT=4
+------there are 30 more clients to go------
+Q1 (WT=11): (id:10, arr:20, serv:4 ) | (id:35, arr:22, serv:7 ) |  
+Q2 (WT=6): (id:13, arr:20, serv:1 ) | (id:44, arr:21, serv:5 ) |  
+Q3 (WT=8): (id:6, arr:21, serv:2 ) | (id:15, arr:22, serv:6 ) |  
+Q4 (WT=6): (id:34, arr:21, serv:6 ) |  
+Q5 (WT=4): (id:41, arr:21, serv:4 ) |  
+
+Client # 13left the queue
+		TIME:23/60
+-->(id:49, arr:23, serv:1 ) will enter Q5 with WT=3
+------there are 29 more clients to go------
+Q1 (WT=10): (id:10, arr:20, serv:3 ) | (id:35, arr:22, serv:7 ) |  
+Q2 (WT=5): (id:44, arr:21, serv:5 ) |  
+Q3 (WT=7): (id:6, arr:21, serv:1 ) | (id:15, arr:22, serv:6 ) |  
+Q4 (WT=5): (id:34, arr:21, serv:5 ) |  
+Q5 (WT=4): (id:41, arr:21, serv:3 ) | (id:49, arr:23, serv:1 ) |  
+
+Client # 6left the queue
+		TIME:24/60
+-->(id:24, arr:24, serv:4 ) will enter Q5 with WT=3
+------there are 28 more clients to go------
+-->(id:40, arr:24, serv:1 ) will enter Q2 with WT=4
+------there are 27 more clients to go------
+Q1 (WT=9): (id:10, arr:20, serv:2 ) | (id:35, arr:22, serv:7 ) |  
+Q2 (WT=5): (id:44, arr:21, serv:4 ) | (id:40, arr:24, serv:1 ) |  
+Q3 (WT=6): (id:15, arr:22, serv:6 ) |  
+Q4 (WT=4): (id:34, arr:21, serv:4 ) |  
+Q5 (WT=7): (id:41, arr:21, serv:2 ) | (id:49, arr:23, serv:1 ) | (id:24, arr:24, serv:4 ) |  
+
+		TIME:25/60
+-->(id:43, arr:25, serv:6 ) will enter Q4 with WT=3
+------there are 26 more clients to go------
+Q1 (WT=8): (id:10, arr:20, serv:1 ) | (id:35, arr:22, serv:7 ) |  
+Q2 (WT=4): (id:44, arr:21, serv:3 ) | (id:40, arr:24, serv:1 ) |  
+Q3 (WT=5): (id:15, arr:22, serv:5 ) |  
+Q4 (WT=9): (id:34, arr:21, serv:3 ) | (id:43, arr:25, serv:6 ) |  
+Q5 (WT=6): (id:41, arr:21, serv:1 ) | (id:49, arr:23, serv:1 ) | (id:24, arr:24, serv:4 ) |  
+
+Client # 10left the queue
+Client # 41left the queue
+		TIME:26/60
+-->(id:47, arr:26, serv:7 ) will enter Q2 with WT=3
+------there are 25 more clients to go------
+-->(id:50, arr:26, serv:6 ) will enter Q3 with WT=4
+------there are 24 more clients to go------
+Q1 (WT=7): (id:35, arr:22, serv:7 ) |  
+Q2 (WT=10): (id:44, arr:21, serv:2 ) | (id:40, arr:24, serv:1 ) | (id:47, arr:26, serv:7 ) |  
+Q3 (WT=10): (id:15, arr:22, serv:4 ) | (id:50, arr:26, serv:6 ) |  
+Q4 (WT=8): (id:34, arr:21, serv:2 ) | (id:43, arr:25, serv:6 ) |  
+Q5 (WT=5): (id:49, arr:23, serv:1 ) | (id:24, arr:24, serv:4 ) |  
+
+Client # 49left the queue
+		TIME:27/60
+-->(id:2, arr:27, serv:2 ) will enter Q5 with WT=4
+------there are 23 more clients to go------
+Q1 (WT=6): (id:35, arr:22, serv:6 ) |  
+Q2 (WT=9): (id:44, arr:21, serv:1 ) | (id:40, arr:24, serv:1 ) | (id:47, arr:26, serv:7 ) |  
+Q3 (WT=9): (id:15, arr:22, serv:3 ) | (id:50, arr:26, serv:6 ) |  
+Q4 (WT=7): (id:34, arr:21, serv:1 ) | (id:43, arr:25, serv:6 ) |  
+Q5 (WT=6): (id:24, arr:24, serv:4 ) | (id:2, arr:27, serv:2 ) |  
+
+Client # 34left the queue
+Client # 44left the queue
+		TIME:28/60
+-->(id:21, arr:28, serv:1 ) will enter Q1 with WT=5
+------there are 22 more clients to go------
+Q1 (WT=6): (id:35, arr:22, serv:5 ) | (id:21, arr:28, serv:1 ) |  
+Q2 (WT=8): (id:40, arr:24, serv:1 ) | (id:47, arr:26, serv:7 ) |  
+Q3 (WT=8): (id:15, arr:22, serv:2 ) | (id:50, arr:26, serv:6 ) |  
+Q4 (WT=6): (id:43, arr:25, serv:6 ) |  
+Q5 (WT=5): (id:24, arr:24, serv:3 ) | (id:2, arr:27, serv:2 ) |  
+
+Client # 40left the queue
+		TIME:29/60
+-->(id:8, arr:29, serv:4 ) will enter Q5 with WT=4
+------there are 21 more clients to go------
+-->(id:26, arr:29, serv:4 ) will enter Q1 with WT=5
+------there are 20 more clients to go------
+-->(id:30, arr:29, serv:5 ) will enter Q4 with WT=5
+------there are 19 more clients to go------
+-->(id:48, arr:29, serv:1 ) will enter Q2 with WT=7
+------there are 18 more clients to go------
+Q1 (WT=9): (id:35, arr:22, serv:4 ) | (id:21, arr:28, serv:1 ) | (id:26, arr:29, serv:4 ) |  
+Q2 (WT=8): (id:47, arr:26, serv:7 ) | (id:48, arr:29, serv:1 ) |  
+Q3 (WT=7): (id:15, arr:22, serv:1 ) | (id:50, arr:26, serv:6 ) |  
+Q4 (WT=10): (id:43, arr:25, serv:5 ) | (id:30, arr:29, serv:5 ) |  
+Q5 (WT=8): (id:24, arr:24, serv:2 ) | (id:2, arr:27, serv:2 ) | (id:8, arr:29, serv:4 ) |  
+
+Client # 15left the queue
+		TIME:30/60
+-->(id:4, arr:30, serv:6 ) will enter Q3 with WT=6
+------there are 17 more clients to go------
+Q1 (WT=8): (id:35, arr:22, serv:3 ) | (id:21, arr:28, serv:1 ) | (id:26, arr:29, serv:4 ) |  
+Q2 (WT=7): (id:47, arr:26, serv:6 ) | (id:48, arr:29, serv:1 ) |  
+Q3 (WT=12): (id:50, arr:26, serv:6 ) | (id:4, arr:30, serv:6 ) |  
+Q4 (WT=9): (id:43, arr:25, serv:4 ) | (id:30, arr:29, serv:5 ) |  
+Q5 (WT=7): (id:24, arr:24, serv:1 ) | (id:2, arr:27, serv:2 ) | (id:8, arr:29, serv:4 ) |  
+
+Client # 24left the queue
+		TIME:31/60
+-->(id:32, arr:31, serv:6 ) will enter Q2 with WT=6
+------there are 16 more clients to go------
+Q1 (WT=7): (id:35, arr:22, serv:2 ) | (id:21, arr:28, serv:1 ) | (id:26, arr:29, serv:4 ) |  
+Q2 (WT=12): (id:47, arr:26, serv:5 ) | (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) |  
+Q3 (WT=11): (id:50, arr:26, serv:5 ) | (id:4, arr:30, serv:6 ) |  
+Q4 (WT=8): (id:43, arr:25, serv:3 ) | (id:30, arr:29, serv:5 ) |  
+Q5 (WT=6): (id:2, arr:27, serv:2 ) | (id:8, arr:29, serv:4 ) |  
+
+		TIME:32/60
+Q1 (WT=6): (id:35, arr:22, serv:1 ) | (id:21, arr:28, serv:1 ) | (id:26, arr:29, serv:4 ) |  
+Q2 (WT=11): (id:47, arr:26, serv:4 ) | (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) |  
+Q3 (WT=10): (id:50, arr:26, serv:4 ) | (id:4, arr:30, serv:6 ) |  
+Q4 (WT=7): (id:43, arr:25, serv:2 ) | (id:30, arr:29, serv:5 ) |  
+Q5 (WT=5): (id:2, arr:27, serv:1 ) | (id:8, arr:29, serv:4 ) |  
+
+Client # 2left the queue
+Client # 35left the queue
+		TIME:33/60
+-->(id:1, arr:33, serv:7 ) will enter Q5 with WT=4
+------there are 15 more clients to go------
+-->(id:7, arr:33, serv:6 ) will enter Q1 with WT=5
+------there are 14 more clients to go------
+Q1 (WT=11): (id:21, arr:28, serv:1 ) | (id:26, arr:29, serv:4 ) | (id:7, arr:33, serv:6 ) |  
+Q2 (WT=10): (id:47, arr:26, serv:3 ) | (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) |  
+Q3 (WT=9): (id:50, arr:26, serv:3 ) | (id:4, arr:30, serv:6 ) |  
+Q4 (WT=6): (id:43, arr:25, serv:1 ) | (id:30, arr:29, serv:5 ) |  
+Q5 (WT=11): (id:8, arr:29, serv:4 ) | (id:1, arr:33, serv:7 ) |  
+
+Client # 21left the queue
+Client # 43left the queue
+		TIME:34/60
+-->(id:20, arr:34, serv:5 ) will enter Q4 with WT=5
+------there are 13 more clients to go------
+-->(id:29, arr:34, serv:1 ) will enter Q3 with WT=8
+------there are 12 more clients to go------
+-->(id:31, arr:34, serv:2 ) will enter Q2 with WT=9
+------there are 11 more clients to go------
+-->(id:38, arr:34, serv:2 ) will enter Q3 with WT=9
+------there are 10 more clients to go------
+-->(id:46, arr:34, serv:1 ) will enter Q1 with WT=10
+------there are 9 more clients to go------
+Q1 (WT=11): (id:26, arr:29, serv:4 ) | (id:7, arr:33, serv:6 ) | (id:46, arr:34, serv:1 ) |  
+Q2 (WT=11): (id:47, arr:26, serv:2 ) | (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) | (id:31, arr:34, serv:2 ) |  
+Q3 (WT=11): (id:50, arr:26, serv:2 ) | (id:4, arr:30, serv:6 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) |  
+Q4 (WT=10): (id:30, arr:29, serv:5 ) | (id:20, arr:34, serv:5 ) |  
+Q5 (WT=10): (id:8, arr:29, serv:3 ) | (id:1, arr:33, serv:7 ) |  
+
+		TIME:35/60
+-->(id:3, arr:35, serv:5 ) will enter Q4 with WT=9
+------there are 8 more clients to go------
+-->(id:18, arr:35, serv:2 ) will enter Q5 with WT=9
+------there are 7 more clients to go------
+-->(id:22, arr:35, serv:6 ) will enter Q1 with WT=10
+------there are 6 more clients to go------
+Q1 (WT=16): (id:26, arr:29, serv:3 ) | (id:7, arr:33, serv:6 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=10): (id:47, arr:26, serv:1 ) | (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) | (id:31, arr:34, serv:2 ) |  
+Q3 (WT=10): (id:50, arr:26, serv:1 ) | (id:4, arr:30, serv:6 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) |  
+Q4 (WT=14): (id:30, arr:29, serv:4 ) | (id:20, arr:34, serv:5 ) | (id:3, arr:35, serv:5 ) |  
+Q5 (WT=11): (id:8, arr:29, serv:2 ) | (id:1, arr:33, serv:7 ) | (id:18, arr:35, serv:2 ) |  
+
+Client # 47left the queue
+Client # 50left the queue
+		TIME:36/60
+-->(id:39, arr:36, serv:5 ) will enter Q2 with WT=9
+------there are 5 more clients to go------
+Q1 (WT=15): (id:26, arr:29, serv:2 ) | (id:7, arr:33, serv:6 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=14): (id:48, arr:29, serv:1 ) | (id:32, arr:31, serv:6 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=9): (id:4, arr:30, serv:6 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) |  
+Q4 (WT=13): (id:30, arr:29, serv:3 ) | (id:20, arr:34, serv:5 ) | (id:3, arr:35, serv:5 ) |  
+Q5 (WT=10): (id:8, arr:29, serv:1 ) | (id:1, arr:33, serv:7 ) | (id:18, arr:35, serv:2 ) |  
+
+Client # 48left the queue
+Client # 8left the queue
+		TIME:37/60
+-->(id:33, arr:37, serv:1 ) will enter Q3 with WT=8
+------there are 4 more clients to go------
+Q1 (WT=14): (id:26, arr:29, serv:1 ) | (id:7, arr:33, serv:6 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=13): (id:32, arr:31, serv:6 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=9): (id:4, arr:30, serv:5 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) |  
+Q4 (WT=12): (id:30, arr:29, serv:2 ) | (id:20, arr:34, serv:5 ) | (id:3, arr:35, serv:5 ) |  
+Q5 (WT=9): (id:1, arr:33, serv:7 ) | (id:18, arr:35, serv:2 ) |  
+
+Client # 26left the queue
+		TIME:38/60
+-->(id:9, arr:38, serv:3 ) will enter Q3 with WT=8
+------there are 3 more clients to go------
+Q1 (WT=13): (id:7, arr:33, serv:6 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=12): (id:32, arr:31, serv:5 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=11): (id:4, arr:30, serv:4 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) |  
+Q4 (WT=11): (id:30, arr:29, serv:1 ) | (id:20, arr:34, serv:5 ) | (id:3, arr:35, serv:5 ) |  
+Q5 (WT=8): (id:1, arr:33, serv:6 ) | (id:18, arr:35, serv:2 ) |  
+
+Client # 30left the queue
+		TIME:39/60
+-->(id:5, arr:39, serv:5 ) will enter Q5 with WT=7
+------there are 2 more clients to go------
+-->(id:36, arr:39, serv:5 ) will enter Q3 with WT=10
+------there are 1 more clients to go------
+Q1 (WT=12): (id:7, arr:33, serv:5 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=11): (id:32, arr:31, serv:4 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=15): (id:4, arr:30, serv:3 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=10): (id:20, arr:34, serv:5 ) | (id:3, arr:35, serv:5 ) |  
+Q5 (WT=12): (id:1, arr:33, serv:5 ) | (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+		TIME:40/60
+-->(id:14, arr:40, serv:3 ) will enter Q4 with WT=9
+------there are 0 more clients to go------
+Q1 (WT=11): (id:7, arr:33, serv:4 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=10): (id:32, arr:31, serv:3 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=14): (id:4, arr:30, serv:2 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=12): (id:20, arr:34, serv:4 ) | (id:3, arr:35, serv:5 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=11): (id:1, arr:33, serv:4 ) | (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+		TIME:41/60
+Q1 (WT=10): (id:7, arr:33, serv:3 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=9): (id:32, arr:31, serv:2 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=13): (id:4, arr:30, serv:1 ) | (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=11): (id:20, arr:34, serv:3 ) | (id:3, arr:35, serv:5 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=10): (id:1, arr:33, serv:3 ) | (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+Client # 4left the queue
+		TIME:42/60
+Q1 (WT=9): (id:7, arr:33, serv:2 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=8): (id:32, arr:31, serv:1 ) | (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=12): (id:29, arr:34, serv:1 ) | (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=10): (id:20, arr:34, serv:2 ) | (id:3, arr:35, serv:5 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=9): (id:1, arr:33, serv:2 ) | (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+Client # 32left the queue
+Client # 29left the queue
+		TIME:43/60
+Q1 (WT=8): (id:7, arr:33, serv:1 ) | (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=7): (id:31, arr:34, serv:2 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=11): (id:38, arr:34, serv:2 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=9): (id:20, arr:34, serv:1 ) | (id:3, arr:35, serv:5 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=8): (id:1, arr:33, serv:1 ) | (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+Client # 7left the queue
+Client # 1left the queue
+Client # 20left the queue
+		TIME:44/60
+Q1 (WT=7): (id:46, arr:34, serv:1 ) | (id:22, arr:35, serv:6 ) |  
+Q2 (WT=6): (id:31, arr:34, serv:1 ) | (id:39, arr:36, serv:5 ) |  
+Q3 (WT=10): (id:38, arr:34, serv:1 ) | (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=8): (id:3, arr:35, serv:5 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=7): (id:18, arr:35, serv:2 ) | (id:5, arr:39, serv:5 ) |  
+
+Client # 46left the queue
+Client # 38left the queue
+Client # 31left the queue
+		TIME:45/60
+Q1 (WT=6): (id:22, arr:35, serv:6 ) |  
+Q2 (WT=5): (id:39, arr:36, serv:5 ) |  
+Q3 (WT=9): (id:33, arr:37, serv:1 ) | (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=7): (id:3, arr:35, serv:4 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=6): (id:18, arr:35, serv:1 ) | (id:5, arr:39, serv:5 ) |  
+
+Client # 33left the queue
+Client # 18left the queue
+		TIME:46/60
+Q1 (WT=5): (id:22, arr:35, serv:5 ) |  
+Q2 (WT=4): (id:39, arr:36, serv:4 ) |  
+Q3 (WT=8): (id:9, arr:38, serv:3 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=6): (id:3, arr:35, serv:3 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=5): (id:5, arr:39, serv:5 ) |  
+
+		TIME:47/60
+Q1 (WT=4): (id:22, arr:35, serv:4 ) |  
+Q2 (WT=3): (id:39, arr:36, serv:3 ) |  
+Q3 (WT=7): (id:9, arr:38, serv:2 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=5): (id:3, arr:35, serv:2 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=4): (id:5, arr:39, serv:4 ) |  
+
+		TIME:48/60
+Q1 (WT=3): (id:22, arr:35, serv:3 ) |  
+Q2 (WT=2): (id:39, arr:36, serv:2 ) |  
+Q3 (WT=6): (id:9, arr:38, serv:1 ) | (id:36, arr:39, serv:5 ) |  
+Q4 (WT=4): (id:3, arr:35, serv:1 ) | (id:14, arr:40, serv:3 ) |  
+Q5 (WT=3): (id:5, arr:39, serv:3 ) |  
+
+Client # 9left the queue
+Client # 3left the queue
+		TIME:49/60
+Q1 (WT=2): (id:22, arr:35, serv:2 ) |  
+Q2 (WT=1): (id:39, arr:36, serv:1 ) |  
+Q3 (WT=5): (id:36, arr:39, serv:5 ) |  
+Q4 (WT=3): (id:14, arr:40, serv:3 ) |  
+Q5 (WT=2): (id:5, arr:39, serv:2 ) |  
+
+Client # 39left the queue
+		TIME:50/60
+Q1 (WT=1): (id:22, arr:35, serv:1 ) |  
+Q2 (WT=0):  
+Q3 (WT=4): (id:36, arr:39, serv:4 ) |  
+Q4 (WT=2): (id:14, arr:40, serv:2 ) |  
+Q5 (WT=1): (id:5, arr:39, serv:1 ) |  
+
+Client # 5left the queue
+Client # 22left the queue
+		TIME:51/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=3): (id:36, arr:39, serv:3 ) |  
+Q4 (WT=1): (id:14, arr:40, serv:1 ) |  
+Q5 (WT=0):  
+
+Client # 14left the queue
+		TIME:52/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=2): (id:36, arr:39, serv:2 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+		TIME:53/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=1): (id:36, arr:39, serv:1 ) |  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+Client # 36left the queue
+		TIME:54/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+Q3 (WT=0):  
+Q4 (WT=0):  
+Q5 (WT=0):  
+
+SIMULATION ENDED
+--->Queues are empty and there are no more clients waiting
+Average Waiting Time: 3.98
+Peak Time: 41

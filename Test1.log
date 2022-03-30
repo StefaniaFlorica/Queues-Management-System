@@ -1,0 +1,175 @@
+Number of clients: 4
+Number of queues: 2
+Simulation time: 60
+Arrival Time: [2; 30]
+Service Time: [2; 4]
+client (id:1, arr:19, serv:2 )was generated
+client (id:2, arr:29, serv:3 )was generated
+client (id:3, arr:29, serv:3 )was generated
+client (id:4, arr:30, serv:3 )was generated
+Clients to be assigned to queues:
+(id:1, arr:19, serv:2 )
+(id:2, arr:29, serv:3 )
+(id:3, arr:29, serv:3 )
+(id:4, arr:30, serv:3 )
+
+		TIME:0/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:1/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:2/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:3/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:4/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:5/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:6/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:7/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:8/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:9/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:10/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:11/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:12/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:13/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:14/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:15/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:16/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:17/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:18/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:19/60
+-->(id:1, arr:19, serv:2 ) will enter Q1 with WT=0
+------there are 3 more clients to go------
+Q1 (WT=2): (id:1, arr:19, serv:2 ) |  
+Q2 (WT=0):  
+
+		TIME:20/60
+Q1 (WT=1): (id:1, arr:19, serv:1 ) |  
+Q2 (WT=0):  
+
+Client # 1left the queue
+		TIME:21/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:22/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:23/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:24/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:25/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:26/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:27/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:28/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+		TIME:29/60
+-->(id:2, arr:29, serv:3 ) will enter Q1 with WT=0
+------there are 2 more clients to go------
+-->(id:3, arr:29, serv:3 ) will enter Q2 with WT=0
+------there are 1 more clients to go------
+Q1 (WT=3): (id:2, arr:29, serv:3 ) |  
+Q2 (WT=3): (id:3, arr:29, serv:3 ) |  
+
+		TIME:30/60
+-->(id:4, arr:30, serv:3 ) will enter Q1 with WT=2
+------there are 0 more clients to go------
+Q1 (WT=5): (id:2, arr:29, serv:2 ) | (id:4, arr:30, serv:3 ) |  
+Q2 (WT=2): (id:3, arr:29, serv:2 ) |  
+
+		TIME:31/60
+Q1 (WT=4): (id:2, arr:29, serv:1 ) | (id:4, arr:30, serv:3 ) |  
+Q2 (WT=1): (id:3, arr:29, serv:1 ) |  
+
+Client # 2left the queue
+Client # 3left the queue
+		TIME:32/60
+Q1 (WT=3): (id:4, arr:30, serv:3 ) |  
+Q2 (WT=0):  
+
+		TIME:33/60
+Q1 (WT=2): (id:4, arr:30, serv:2 ) |  
+Q2 (WT=0):  
+
+		TIME:34/60
+Q1 (WT=1): (id:4, arr:30, serv:1 ) |  
+Q2 (WT=0):  
+
+Client # 4left the queue
+		TIME:35/60
+Q1 (WT=0):  
+Q2 (WT=0):  
+
+SIMULATION ENDED
+--->Queues are empty and there are no more clients waiting
+Average Waiting Time: 0.5
+Peak Time: 31
