@@ -180,11 +180,6 @@ public class SimulationView extends JFrame {
 
         textArea.setCaretPosition(textArea.getDocument().getLength());
         JScrollPane scrollPane= new JScrollPane(textArea,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-        /*scrollPane.getVerticalScrollBar().addAdjustmentListener(new AdjustmentListener() {
-            public void adjustmentValueChanged(AdjustmentEvent e) {
-                e.getAdjustable().setValue(e.getAdjustable().getMaximum());
-            }
-        });*/
         panelAfisare.add(scrollPane);
 
         JPanel panelSeparator1 = new JPanel();

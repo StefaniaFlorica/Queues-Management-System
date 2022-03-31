@@ -91,8 +91,10 @@ public class Simulare extends Thread {
     //si il sterg din lista de waiting clients
     {
         int indexBestQueue = getBestQueue();
+
         loggerSimulare.appendToLogFile("-->"+client+" will enter Q"+(indexBestQueue+1)+" with WT="+queues.get(indexBestQueue).getWaitingTime());
         view.setTextArea("-->"+client+" will enter Q"+(indexBestQueue+1)+" with WT="+queues.get(indexBestQueue).getWaitingTime());
+
         queues.get(indexBestQueue).addClient(client);
         waitingClients.remove(client);
     }
@@ -179,6 +181,7 @@ public class Simulare extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            //PEAK TIME
             int nrOfClientsInQueues=computeNrClients();
             if(nrOfClientsInQueues>peakValue)
             {
@@ -210,5 +213,9 @@ public class Simulare extends Thread {
         loggerSimulare.appendToLogFile("Peak Time: "+peakTime);
         view.setTextArea("Average Waiting Time: "+averageWaitingTime/nrClients);
         view.setTextArea("Peak Time: "+peakTime +" with "+peakValue+" clients");
+        for(QueueT q:queues)
+        {
+            q.stopQueue();
+        }
     }
 }

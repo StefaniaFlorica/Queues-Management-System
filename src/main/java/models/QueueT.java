@@ -6,14 +6,13 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class QueueT implements Runnable{
+    private boolean ok=true;
     private LoggerClass logger;
     private BlockingQueue<Client> queue;
     private AtomicInteger waitingTime= new AtomicInteger(0);
-    private boolean clientsExist;
     public QueueT(LoggerClass loggerSimulare)
     {
         queue=new LinkedBlockingQueue<>();
-        clientsExist=false;
         logger=loggerSimulare;
     }
     public QueueT()
@@ -27,13 +26,13 @@ public class QueueT implements Runnable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        if(clientsExist==false)
-        {
-            clientsExist=true;
-        }
         waitingTime.getAndAdd(client.getServiceTime());
     }
 
+    public void stopQueue()
+    {
+        ok=false;
+    }
     public BlockingQueue<Client> getQueue() {
         return queue;
     }
@@ -56,7 +55,7 @@ public class QueueT implements Runnable{
     @Override
     public void run() {
 
-        while(true) {
+        while(ok) {
 
             if(queue.size()!=0)
             {

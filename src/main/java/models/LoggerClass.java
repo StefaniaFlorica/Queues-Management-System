@@ -9,21 +9,18 @@ public class LoggerClass {
     private static final Logger logger = Logger.getLogger("Simulare");
     public static void init() throws IOException {
 
-        for(Handler iHandler:logger.getParent().getHandlers())
-        {
-            logger.getParent().removeHandler(iHandler);
-        }
+        logger.setUseParentHandlers(false);
         FileHandler handler = new FileHandler("C:/Users/Stefi/Documents/AN 2/TP/Simulare.log");
         logger.addHandler(handler);
-        CustomRecordFormatter formatter = new CustomRecordFormatter();
-        handler.setFormatter(formatter);
+        handler.setFormatter(new CustomRecordFormatter());
     }
     public void appendToLogFile(String message)
     {
         logger.info(message);
     }
 }
-
+//pentru scrierea simplificata in fisierul .log
+//source: https://stackoverflow.com/questions/2950704/java-util-logging-how-to-suppress-date-line
 class CustomRecordFormatter extends Formatter {
     @Override
     public String format(final LogRecord r) {
